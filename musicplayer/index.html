@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="dark-theme">
+    <div class="theme-toggle">
+        <button id="themeBtn">🌙</button>
+    </div>
+
+    <div class="player-card">
+        <img src="cover.jpg" alt="Album Cover" id="cover" class="cover" />
+        <h2 id="title">Song Title</h2>
+        <audio id="audio"></audio>
+
+        <div class="controls">
+            <button id="prev" class="btn">⏮️</button>
+            <button id="play" class="btn play-btn">▶️</button>
+            <button id="next" class="btn">⏭️</button>
+            <button id="shuffle" class="btn">🔀</button>
+        </div>
+
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+        </div>
+        <div class="time-display">
+            <span id="current-time">00:00</span>
+            <span id="duration">00:00</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

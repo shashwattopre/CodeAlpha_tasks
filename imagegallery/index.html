@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/galleryicon.png">
+</head>
+
+<body>
+    <header>
+        <h1>Image Gallery</h1>
+        <div>
+            <input type="checkbox" class="checkbox" id="chk">
+            <label class="label" for="chk">
+                <div class="ball"></div>
+            </label>
+        </div>
+    </header>
+    <div class="filters">
+        <h2>Filter by Category</h2>
+        <button data-filter="all">All</button>
+        <button data-filter="nature">Nature</button>
+        <button data-filter="city">City</button>
+    </div>
+    <div class="gallery">
+        <img src="images/image1.jpg" alt="Image 1" onclick="openLightbox(this)" data-category="nature">
+        <img src="images/image2.jpg" alt="Image 2" onclick="openLightbox(this)" data-category="nature">
+        <img src="images/image3.jpg" alt="Image 3" onclick="openLightbox(this)" data-category="city">
+        <img src="images/image4.jpg" alt="Image 4" onclick="openLightbox(this)" data-category="nature">
+        <img src="images/image5.jpg" alt="Image 5" onclick="openLightbox(this)" data-category="city">
+        <img src="images/image6.jpg" alt="Image 6" onclick="openLightbox(this)" data-category="city">
+        <img src="images/image7.jpg" alt="Image 7" onclick="openLightbox(this)" data-category="city">
+        <img src="images/image8.jpg" alt="Image 8" onclick="openLightbox(this)" data-category="nature">
+        <img src="images/image9.jpg" alt="Image 9" onclick="openLightbox(this)" data-category="city">
+        <img src="images/image10.jpg" alt="Image 10" onclick="openLightbox(this)" data-category="nature">
+    </div>
+
+    <div class="lightbox" id="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img id="lightbox-img" src="" alt="Expanded View" />
+        <div class="nav">
+            <button id="prev" onclick="navigate(-1)">&larr;</button>
+            <button id="next" onclick="navigate(1)">&rarr;</button>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Image Gallery. All the images are sourced from multiple different websites and are not mine.</p>
+        <p>This Image Galery is developed using only HTML, CSS, JAVASCRIPT and made for the Frontend Internship project
+            of CodeAlpha.</p>
+        <script src="script.js"></script>
+</body>
+
+</html>
