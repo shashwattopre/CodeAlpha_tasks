@@ -11,9 +11,9 @@ This is a responsive **Image Gallery** web application built using **HTML**, **C
 - Enhances user interaction and visual appeal.
 - Pure HTML, CSS, and JavaScript – no external frameworks or libraries used.
 
-![ImageGalleryLightMode](image-2.png)
+![ImageGalleryLightMode](image.png)
 
-![ImageGalleryDarkMode](image-3.png)
+![ImageGalleryDarkMode](image-1.png)
 
 ---
 
@@ -32,6 +32,6 @@ A sleek and responsive music player built using **HTML**, **CSS**, and **JavaScr
 - Organized file-based song management
 - Responsive and animated UI
 
-![MusicPlayerLightMode](image-1.png)
+![MusicPlayerLightMode](image-2.png)
 
-![MusicPlayerDarkMode](image.png)
+![MusicPlayerDarkMode](image-3.png)
