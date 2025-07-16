@@ -13,6 +13,7 @@ This is a responsive **Image Gallery** web application built using **HTML**, **C
 
 <img width="1895" height="1079" alt="ImageGalleryLightMode" src="https://github.com/user-attachments/assets/5a03b43b-8ab1-4ddd-afa2-41209a2eb73c" />
 
+
 <img width="1898" height="1078" alt="ImageGalleryDarkMode" src="https://github.com/user-attachments/assets/a6f08851-6c69-41f5-ac30-155f65dcc3cd" />
 
 ---
@@ -33,5 +34,6 @@ A sleek and responsive music player built using **HTML**, **CSS**, and **JavaScr
 - Responsive and animated UI
 
 <img width="1919" height="1079" alt="MusicPlayerLightMode" src="https://github.com/user-attachments/assets/1ed93549-b4de-4db5-b812-56112e06b524" />
+
 
 <img width="1919" height="1079" alt="MusicPlayerDarkMode" src="https://github.com/user-attachments/assets/615cf0a8-b624-491d-ae1a-2f7ab9430f22" />
