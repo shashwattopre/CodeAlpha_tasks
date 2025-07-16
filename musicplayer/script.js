@@ -1,5 +1,5 @@
 const songs = ['song1.mp3', 'song2.mp3', 'song3.mp3'];
-const songTitles = ['Sapphire', 'Beautiful', 'Gulabi Aakhein'];
+const songTitles = ['Sapphire', 'O Mere Dil Ke Chain', 'Gulabi Aakhein'];
 const covers = ['cover1.jpg', 'cover2.jpg', 'cover3.jpg'];
 const currentTimeEl = document.getElementById('current-time');
 const durationEl = document.getElementById('duration');
