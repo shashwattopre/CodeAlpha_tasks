@@ -10,6 +10,11 @@ This is a responsive **Image Gallery** web application built using **HTML**, **C
 - Fully responsive layout that adapts to different screen sizes.
 - Enhances user interaction and visual appeal.
 - Pure HTML, CSS, and JavaScript – no external frameworks or libraries used.
+
+![ImageGalleryLightMode](image-2.png)
+
+![ImageGalleryDarkMode](image-3.png)
+
 ---
 
 ## TASK 4: Music Player using Javascript
@@ -26,3 +31,7 @@ A sleek and responsive music player built using **HTML**, **CSS**, and **JavaScr
 - Interactive progress bar with seeking
 - Organized file-based song management
 - Responsive and animated UI
+
+![MusicPlayerLightMode](image-1.png)
+
+![MusicPlayerDarkMode](image.png)
