@@ -11,7 +11,7 @@ This is a responsive **Image Gallery** web application built using **HTML**, **C
 - Enhances user interaction and visual appeal.
 - Pure HTML, CSS, and JavaScript – no external frameworks or libraries used.
 
-![ImageGalleryLightMode](image.png)
+<img width="1895" height="1079" alt="image" src="https://github.com/user-attachments/assets/5a03b43b-8ab1-4ddd-afa2-41209a2eb73c" />
 
 ![ImageGalleryDarkMode](image-1.png)
 
